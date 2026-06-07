@@ -326,7 +326,7 @@ body {
    CARS
    ═══════════════════════════════════════════ */
 #cars { background: var(--black); }
-.cars-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 2rem; }
+.cars-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 2rem; }
 .car-card {
   border: 1px solid var(--border); border-radius: 16px; overflow: hidden;
   background: var(--card); cursor: pointer;

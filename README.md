@@ -32,7 +32,7 @@ O DRT/
 3. Start the server: `node server.js`
 
 ### Access the Website
-- **URL**: `http://localhost:3001`
+- **URL**: `http://localhost:3000`
 - Server will display: `🏎️ DRIFT Racing — Scroll Experience`
 
 ### Stop the Server
@@ -147,7 +147,7 @@ resizeCanvas()      // Responsive canvas sizing
 ```
 
 **Image Server Path**: Frames are served from `C:\Users\HP\Downloads\ezgif-new`
-- **Port**: 3001 (changed from default 3000)
+- **Port**: 3000
 - **MIME types**: Supports HTML, CSS, JS, JPG, PNG with proper caching headers
 
 ---
@@ -234,7 +234,7 @@ Add/remove `.tl-item` cards in the Achievements section with new dates and conte
 
 1. **Use a production server**:
    - Apache, Nginx, or Node.js with PM2
-   -Let's Encrypt SSL certificate
+   - Let's Encrypt SSL certificate
 
 2. **Environment variables**:
    ```bash
@@ -261,7 +261,7 @@ Add/remove `.tl-item` cards in the Achievements section with new dates and conte
 - Check FRAMES_DIR in server.js points to correct path
 - Verify all 224 images exist in the directory
 - Check console for 404 errors
-- Ensure port 3001 is available
+- Ensure port 3000 is available
 
 ### Animation Stuttering
 - Reduce browser tabs/extensions
